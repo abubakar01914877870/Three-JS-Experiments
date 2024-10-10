@@ -18,13 +18,13 @@ export default function Document() {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/layout/favicon/apple-touch-icon.png"
+          href="/layout/favicon/icon-1.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/layout/favicon/favicon-32x32.png"
+          href="/layout/favicon/icon-2.png"
         />
         <link
           rel="icon"
