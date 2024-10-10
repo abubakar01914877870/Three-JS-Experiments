@@ -36,24 +36,9 @@ export const getRandomWordFrom = ({ exactTill, targetWord }) => {
 export const getPageTitleByPath = (path) => {
   switch (path) {
     case "/":
-      return "Homepage | Sovereign Apex";
-    case "/about":
-      return "About | Sovereign Apex";
-    case "/contact":
-      return "Contact | Sovereign Apex";
-    case "/work":
-      return "Works | Sovereign Apex";
-    case "/services":
-      return "Services | Sovereign Apex";
-    case "/testimonial":
-      return "Testimonials | Sovereign Apex";
-    case "/thank-you":
-      return "Contact | Sovereign Apex";
-    case "/builders-risk":
-      return "Builders Risk | Sovereign Apex";
-
+      return "Three JS Experiments";
     default:
-      return "Homepage | Sovereign Apex";
+      return "Three JS Experiments";
   }
 };
 
@@ -93,24 +78,6 @@ export const appendStateName = (heading, stateName) => {
   return (heading || "").replace(/["']?\b[Yy]our [Ss]tate\b["']?/g, stateName);
 };
 
-export const getServiceIcon = (service) => {
-  switch (service) {
-    case "web":
-      return <FaLaptopCode />;
-    case "advertisments":
-      return <RiAdvertisementFill />;
-    case "event":
-      return <RiLiveFill />;
-    case "shorts":
-      return <FaCameraRetro />;
-    case "remix":
-      return <MdVideoLibrary />;
-    case "series":
-      return <PiTelevisionSimpleFill />;
-    default:
-      return <FaTv />;
-  }
-};
 
 export function transformWordsInString({ str, stateName, redWords = [] }) {
   if (!stateName) return str;
